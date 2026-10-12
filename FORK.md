@@ -12,7 +12,7 @@ back at Hex at that version and delete this branch.
 
 | Commit subject | Needed by | Retires when |
 | --- | --- | --- |
-| feat(openrouter): support prompt_cache_key option | Dwell (OpenRouter models that cache per backend server) | upstream releases `openrouter_prompt_cache_key` (agentjido/req_llm PR, see below) |
+| feat(openrouter): support prompt_cache_key option | Dwell (OpenRouter models that cache per backend server) | a ReqLLM release has `openrouter_prompt_cache_key` (agentjido/req_llm#1094) |
 
 **prompt_cache_key.** OpenRouter's documented `prompt_cache_key` request
 field keeps calls that share a prompt prefix on one backend, so they read
